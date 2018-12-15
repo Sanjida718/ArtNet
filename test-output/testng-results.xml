@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="19059" started-at="2018-12-15T21:30:12Z" finished-at="2018-12-15T21:30:31Z">
+  <suite name="RegressionSuite" duration-ms="16023" started-at="2018-12-15T21:32:48Z" finished-at="2018-12-15T21:33:04Z">
     <groups>
     </groups>
-    <test name="Chrome test" duration-ms="8618" started-at="2018-12-15T21:30:12Z" finished-at="2018-12-15T21:30:21Z">
+    <test name="Chrome test" duration-ms="7234" started-at="2018-12-15T21:32:48Z" finished-at="2018-12-15T21:32:56Z">
       <class name="tests.RegisterTest">
-        <test-method status="PASS" signature="beforetestingstart(java.lang.String)[pri:0, instance:tests.RegisterTest@6442b0a6]" name="beforetestingstart" is-config="true" duration-ms="8194" started-at="2018-12-15T16:30:12Z" finished-at="2018-12-15T16:30:20Z">
+        <test-method status="PASS" signature="beforetestingstart(java.lang.String)[pri:0, instance:tests.RegisterTest@6442b0a6]" name="beforetestingstart" is-config="true" duration-ms="6902" started-at="2018-12-15T16:32:48Z" finished-at="2018-12-15T16:32:55Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetestingstart -->
-        <test-method status="FAIL" signature="regtest()[pri:0, instance:tests.RegisterTest@6442b0a6]" name="regtest" duration-ms="403" started-at="2018-12-15T16:30:20Z" finished-at="2018-12-15T16:30:21Z">
+        <test-method status="FAIL" signature="regtest()[pri:0, instance:tests.RegisterTest@6442b0a6]" name="regtest" duration-ms="311" started-at="2018-12-15T16:32:55Z" finished-at="2018-12-15T16:32:56Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: call function result missing 'value'
@@ -29,7 +29,7 @@ Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.
 System info: host: 'Sanjidas-MacBook-Pro.local', ip: '2604:2000:f000:6b00:0:0:0:1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/wm/hvhl12wx55b...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
-Session ID: a3f632304a14eac82c73c89a7a130a7f]]>
+Session ID: 98510a9d6352b8bd8ea09e1191e1332f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'
@@ -40,7 +40,7 @@ Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.
 System info: host: 'Sanjidas-MacBook-Pro.local', ip: '2604:2000:f000:6b00:0:0:0:1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/wm/hvhl12wx55b...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
-Session ID: a3f632304a14eac82c73c89a7a130a7f
+Session ID: 98510a9d6352b8bd8ea09e1191e1332f
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -86,15 +86,15 @@ Session ID: a3f632304a14eac82c73c89a7a130a7f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regtest -->
-        <test-method status="PASS" signature="close1()[pri:0, instance:tests.RegisterTest@6442b0a6]" name="close1" is-config="true" duration-ms="7" started-at="2018-12-15T16:30:21Z" finished-at="2018-12-15T16:30:21Z">
+        <test-method status="PASS" signature="close1()[pri:0, instance:tests.RegisterTest@6442b0a6]" name="close1" is-config="true" duration-ms="6" started-at="2018-12-15T16:32:56Z" finished-at="2018-12-15T16:32:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close1 -->
       </class> <!-- tests.RegisterTest -->
     </test> <!-- Chrome test -->
-    <test name="Firefox test" duration-ms="10285" started-at="2018-12-15T21:30:21Z" finished-at="2018-12-15T21:30:31Z">
+    <test name="Firefox test" duration-ms="8627" started-at="2018-12-15T21:32:56Z" finished-at="2018-12-15T21:33:04Z">
       <class name="tests.RegisterTest">
-        <test-method status="PASS" signature="beforetestingstart(java.lang.String)[pri:0, instance:tests.RegisterTest@79b4d0f]" name="beforetestingstart" is-config="true" duration-ms="8901" started-at="2018-12-15T16:30:21Z" finished-at="2018-12-15T16:30:30Z">
+        <test-method status="PASS" signature="beforetestingstart(java.lang.String)[pri:0, instance:tests.RegisterTest@79b4d0f]" name="beforetestingstart" is-config="true" duration-ms="7446" started-at="2018-12-15T16:32:56Z" finished-at="2018-12-15T16:33:03Z">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@ Session ID: a3f632304a14eac82c73c89a7a130a7f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetestingstart -->
-        <test-method status="PASS" signature="regtest()[pri:0, instance:tests.RegisterTest@79b4d0f]" name="regtest" duration-ms="1375" started-at="2018-12-15T16:30:30Z" finished-at="2018-12-15T16:30:31Z">
+        <test-method status="PASS" signature="regtest()[pri:0, instance:tests.RegisterTest@79b4d0f]" name="regtest" duration-ms="1175" started-at="2018-12-15T16:33:03Z" finished-at="2018-12-15T16:33:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regtest -->
-        <test-method status="PASS" signature="close1()[pri:0, instance:tests.RegisterTest@79b4d0f]" name="close1" is-config="true" duration-ms="8" started-at="2018-12-15T16:30:31Z" finished-at="2018-12-15T16:30:31Z">
+        <test-method status="PASS" signature="close1()[pri:0, instance:tests.RegisterTest@79b4d0f]" name="close1" is-config="true" duration-ms="5" started-at="2018-12-15T16:33:04Z" finished-at="2018-12-15T16:33:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close1 -->
